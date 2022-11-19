@@ -32,3 +32,9 @@ body {
     position: relative; /* on positionne le conteneur */
     margin-top: 40px;
 }
+.admin-div-container {
+    position: relative; /* on positionne le conteneur */
+    //margin-left: 20px;
+    margin-right: auto;
+    margin-top: 80px;
+}
