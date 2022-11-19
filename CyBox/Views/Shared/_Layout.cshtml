@@ -7,25 +7,49 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/CyBox.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">CyBox</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                <a class="navbar-brand ms-xxl-5 me-4" href="javascript:void(0)">CyBox</a>
+                <div class="collapse navbar-collapse" id="mynavbar">
+                    <ul class="navbar-nav me-auto">
+                        <li class="nav-item me-2">
+                            <a class="nav-link" href="javascript:void(0)">
+                                <span><i class="fa fa-user"></i></span>
+                                Espace admin
+                            </a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        <li class="nav-item me-2">
+                            <a class="nav-link" href="javascript:void(0)">
+                                <span><i class="fa fa-users"></i></span>
+                                Prospects
+                            </a>
+                        </li>
+                        <li class="me-2">
+                            <div class="dropdown">
+                                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
+                                    <span><i class="fa fa-hdd-o"></i></span>
+                                    Stock
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item text-black" href="#">Normal</a></li>
+                                    <li><a class="dropdown-item text-black" href="#">Active</a></li>
+                                    <li><a class="dropdown-item text-black" href="#">Disabled</a></li>
+                                </ul>
+                            </div>
                         </li>
                     </ul>
+                    <form class="d-flex me-lg-5">
+                        <input class="form-control me-2 input-group-sm " type="text" placeholder="Pseudo">
+                        <input class="form-control me-2 input-group-sm " type="password" placeholder="Mot de passe">
+                        <button class="btn btn-success btn-sm d-inline-flex" type="button">
+                            Connexion 
+                            <span class="ms-2"><i class="fa fa-arrow-right"></i></span>
+                            </button>
+                    </form>
                 </div>
             </div>
         </nav>

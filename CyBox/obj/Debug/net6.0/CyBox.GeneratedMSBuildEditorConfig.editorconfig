@@ -15,6 +15,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Tghrayt\Documents\Software\Projects\CyBox\CyBox
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Tghrayt/Documents/Software/Projects/CyBox/CyBox/Views/CyBox/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ3lCb3hcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Tghrayt/Documents/Software/Projects/CyBox/CyBox/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

@@ -16,3 +16,19 @@ html {
 body {
   margin-bottom: 60px;
 }
+.image {
+    max-width: 15%;
+    height: auto;
+    border-radius: 8px;
+}
+.cybox {
+    position: relative; /* on positionne le conteneur */
+    margin-left: 80px;
+    margin-right: auto;
+    margin-top: 120px;
+
+}
+.cybox-p {
+    position: relative; /* on positionne le conteneur */
+    margin-top: 40px;
+}
