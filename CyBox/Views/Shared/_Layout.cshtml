@@ -23,7 +23,7 @@
                             </a>
                         </li>
                         <li class="nav-item me-2">
-                            <a class="nav-link" href="javascript:void(0)">
+                            <a class="nav-link" asp-area="" asp-controller="Prospect" asp-action="Index">
                                 <span><i class="fa fa-users"></i></span>
                                 Prospects
                             </a>
@@ -35,9 +35,18 @@
                                     Stock
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item text-black" href="#">Normal</a></li>
-                                    <li><a class="dropdown-item text-black" href="#">Active</a></li>
-                                    <li><a class="dropdown-item text-black" href="#">Disabled</a></li>
+                                    <li>
+                                        <a class="dropdown-item text-black" asp-area="" asp-controller="Sale" asp-action="Index">
+                                            <span class="me-2"><i class="fa fa-shopping-cart" aria-hidden="true"></i></span>
+                                            Ventes
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item text-black" asp-area="" asp-controller="Purchase" asp-action="Index">
+                                            <span class="me-2"><i class="fa fa-shopping-cart" aria-hidden="true"></i></span>
+                                            Achats
+                                        </a>
+                                    </li>
                                 </ul>
                             </div>
                         </li>

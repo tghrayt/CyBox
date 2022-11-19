@@ -31,6 +31,18 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Tghrayt/Documents/Software/Projects/CyBox/CyBox/Views/Prospect/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvc3BlY3RcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tghrayt/Documents/Software/Projects/CyBox/CyBox/Views/Purchase/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHVyY2hhc2VcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Tghrayt/Documents/Software/Projects/CyBox/CyBox/Views/sale/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncc2FsZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Tghrayt/Documents/Software/Projects/CyBox/CyBox/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
