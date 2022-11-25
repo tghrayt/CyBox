@@ -17,7 +17,7 @@ body {
   margin-bottom: 60px;
 }
 .image {
-    max-width: 15%;
+    max-width: 25%;
     height: auto;
     border-radius: 8px;
 }
@@ -31,4 +31,9 @@ body {
 .cybox-p {
     position: relative; /* on positionne le conteneur */
     margin-top: 40px;
+}
+.admin-div-container {
+    position: relative; /* on positionne le conteneur */
+    margin-right: auto;
+    margin-top: 80px;
 }
