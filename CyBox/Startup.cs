@@ -23,10 +23,11 @@ namespace CyBox
                         CookieAuthenticationDefaults.AuthenticationScheme)
                     .AddCookie(option =>
                     {
-                        option.LoginPath = "/Access/Login";
+                        option.LoginPath = "/CyBox/Index";
                         option.ExpireTimeSpan = TimeSpan.FromMinutes(20);
 
                     });
+            services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
         }
         public void Configure(WebApplication app, IWebHostEnvironment env)
         {
