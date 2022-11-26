@@ -11,5 +11,9 @@ namespace CyBox.Controllers
             ViewData["date"] = now.Year;
             return View();
         }
+        public async Task<IActionResult> Login()
+        {
+
+        }
     }
 }
