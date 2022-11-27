@@ -6,11 +6,7 @@ namespace CyBox.Controllers
 {
     public class CyBoxController : Controller
     {
-        private readonly ILogger _logger;
-        public CyBoxController(ILogger logger)
-        {
-            _logger = logger;
-        }
+       
 
         public IActionResult Index()
         {
@@ -22,8 +18,7 @@ namespace CyBox.Controllers
         {
             if(userLoginViewModel == null)
             {
-                _logger.LogError("");
-                return View("Error");
+                return View();
             }
             return View();
         }
