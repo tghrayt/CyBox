@@ -18,5 +18,13 @@ namespace CyBox.Controllers
         {
             return View();
         }
+
+
+        [HttpPost]
+        public ActionResult AddProfil(IFormCollection fc)
+        {
+
+            return View("Add");
+        }
     }
 }

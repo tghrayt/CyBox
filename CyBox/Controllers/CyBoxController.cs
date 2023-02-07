@@ -10,8 +10,6 @@ namespace CyBox.Controllers
 
         public IActionResult Index()
         {
-            DateTime now = DateTime.Now;
-            ViewData["date"] = now.Year;
             return View();
         }
         public async Task<IActionResult> Login(UserLoginViewModel userLoginViewModel)

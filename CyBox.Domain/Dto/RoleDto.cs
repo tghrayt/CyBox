@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace CyBox.Domain.Dto
 {
-    public class UserLoginDto
+    public class RoleDto
     {
-        public string? Login { get; set; }
-        public string? Password { get; set; }
+        public string? Libelle { get; set; }
     }
 }
